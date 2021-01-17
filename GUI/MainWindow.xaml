@@ -1,0 +1,18 @@
+﻿<Window x:Class="GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="400">
+    <Grid Background="#FFC0E6F0">
+        <Label x:Name="label_wypozyczalnia" Content="WYPOŻYCZALNIA SAMOCHODÓW" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Book Antiqua" FontStretch="ExtraExpanded" FontStyle="Normal" Foreground="#FF0B0404"/>
+        <Button x:Name="button_samochody" Content="Lista wszystkich samochodów" HorizontalAlignment="Left" Height="28" Margin="87,120,0,0" VerticalAlignment="Top" Width="197" Click="button_samochody_Click" Foreground="#FF121314" Background="#FF5BC9F1" FontFamily="Book Antiqua" FontSize="12"/>
+        <Button x:Name="button_dostepne" Content="Lista dostępnych samochodów" HorizontalAlignment="Left" Height="28" Margin="87,160,0,0" VerticalAlignment="Top" Width="197" Click="button_dostepne_Click" Foreground="#FF121314" Background="#FF5BC9F1" FontFamily="Book Antiqua" FontSize="12"/>
+        <Button x:Name="button_wypozyczone" Content="Lista wypożyczonych samochodów" HorizontalAlignment="Left" Height="28" Margin="87,200,0,0" VerticalAlignment="Top" Width="197" Click="button_wypozyczone_Click" Foreground="#FF121314" Background="#FF5BC9F1" FontFamily="Book Antiqua" FontSize="12"/>
+        <Button x:Name="button_wypozyczenia" Content="Wypożyczenia" HorizontalAlignment="Left" Height="28" Margin="87,240,0,0" VerticalAlignment="Top" Width="197" Click="button_wypozyczenia_Click" Foreground="#FF121314" Background="#FF5BC9F1" FontFamily="Book Antiqua" FontSize="12"/>
+        <Button x:Name="button_zamknij" Content="Zamknij" HorizontalAlignment="Left" Height="28" Margin="87,280,0,0" VerticalAlignment="Top" Width="197" Foreground="#FF121314" Background="#FF5BC9F1" FontFamily="Book Antiqua" FontSize="12" Click="button_zamknij_Click"/>
+
+    </Grid>
+</Window>

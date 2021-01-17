@@ -1,0 +1,14 @@
+C:\Users\korne\Desktop\Studia\semestr 3\Programowanie obiektowe\Projekt_Susz_Kulec_Koterwa\Projekt_Susz_Kulec_Koterwa\bin\Debug\netcoreapp3.1\Projekt_Susz_Kulec_Koterwa.exe
+C:\Users\korne\Desktop\Studia\semestr 3\Programowanie obiektowe\Projekt_Susz_Kulec_Koterwa\Projekt_Susz_Kulec_Koterwa\bin\Debug\netcoreapp3.1\Projekt_Susz_Kulec_Koterwa.deps.json
+C:\Users\korne\Desktop\Studia\semestr 3\Programowanie obiektowe\Projekt_Susz_Kulec_Koterwa\Projekt_Susz_Kulec_Koterwa\bin\Debug\netcoreapp3.1\Projekt_Susz_Kulec_Koterwa.runtimeconfig.json
+C:\Users\korne\Desktop\Studia\semestr 3\Programowanie obiektowe\Projekt_Susz_Kulec_Koterwa\Projekt_Susz_Kulec_Koterwa\bin\Debug\netcoreapp3.1\Projekt_Susz_Kulec_Koterwa.runtimeconfig.dev.json
+C:\Users\korne\Desktop\Studia\semestr 3\Programowanie obiektowe\Projekt_Susz_Kulec_Koterwa\Projekt_Susz_Kulec_Koterwa\bin\Debug\netcoreapp3.1\Projekt_Susz_Kulec_Koterwa.dll
+C:\Users\korne\Desktop\Studia\semestr 3\Programowanie obiektowe\Projekt_Susz_Kulec_Koterwa\Projekt_Susz_Kulec_Koterwa\bin\Debug\netcoreapp3.1\Projekt_Susz_Kulec_Koterwa.pdb
+C:\Users\korne\Desktop\Studia\semestr 3\Programowanie obiektowe\Projekt_Susz_Kulec_Koterwa\Projekt_Susz_Kulec_Koterwa\obj\Debug\netcoreapp3.1\Projekt_Susz_Kulec_Koterwa.csprojAssemblyReference.cache
+C:\Users\korne\Desktop\Studia\semestr 3\Programowanie obiektowe\Projekt_Susz_Kulec_Koterwa\Projekt_Susz_Kulec_Koterwa\obj\Debug\netcoreapp3.1\Projekt_Susz_Kulec_Koterwa.AssemblyInfoInputs.cache
+C:\Users\korne\Desktop\Studia\semestr 3\Programowanie obiektowe\Projekt_Susz_Kulec_Koterwa\Projekt_Susz_Kulec_Koterwa\obj\Debug\netcoreapp3.1\Projekt_Susz_Kulec_Koterwa.AssemblyInfo.cs
+C:\Users\korne\Desktop\Studia\semestr 3\Programowanie obiektowe\Projekt_Susz_Kulec_Koterwa\Projekt_Susz_Kulec_Koterwa\obj\Debug\netcoreapp3.1\Projekt_Susz_Kulec_Koterwa.csproj.CoreCompileInputs.cache
+C:\Users\korne\Desktop\Studia\semestr 3\Programowanie obiektowe\Projekt_Susz_Kulec_Koterwa\Projekt_Susz_Kulec_Koterwa\obj\Debug\netcoreapp3.1\Projekt_Susz_Kulec_Koterwa.dll
+C:\Users\korne\Desktop\Studia\semestr 3\Programowanie obiektowe\Projekt_Susz_Kulec_Koterwa\Projekt_Susz_Kulec_Koterwa\obj\Debug\netcoreapp3.1\Projekt_Susz_Kulec_Koterwa.pdb
+C:\Users\korne\Desktop\Studia\semestr 3\Programowanie obiektowe\Projekt_Susz_Kulec_Koterwa\Projekt_Susz_Kulec_Koterwa\obj\Debug\netcoreapp3.1\Projekt_Susz_Kulec_Koterwa.genruntimeconfig.cache
+C:\Users\korne\Desktop\Studia\semestr 3\Programowanie obiektowe\Projekt_Susz_Kulec_Koterwa\Projekt_Susz_Kulec_Koterwa\bin\Debug\netcoreapp3.1\Projekt_Susz_Kulec_Koterwa.xml

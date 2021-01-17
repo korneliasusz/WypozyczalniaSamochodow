@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Testy</name>
+    </assembly>
+    <members>
+        <member name="T:Testy.UnitTest1">
+            <summary>
+            Testy wykonane przez wszystkich członków grupy razem
+            </summary>
+        </member>
+        <member name="M:Testy.UnitTest1.ZastapZerami">
+            <summary>
+            Zastępowanie pustych pól w numerze VIN zerami
+            </summary>
+        </member>
+        <member name="M:Testy.UnitTest1.TestCompare">
+            <summary>
+            Porównywanie dwóch samochodów ze względu na markę
+            </summary>
+        </member>
+        <member name="M:Testy.UnitTest1.TestWypozyczajacego">
+            <summary>
+            Sprawdzanie poprawności danych osoby wypożyczającej oraz daty wypożyczenia
+            </summary>
+        </member>
+        <member name="M:Testy.UnitTest1.CzyAutmoat">
+            <summary>
+            Weryfikacja czy samochód jest wyposażony w automatyczną skrzynię biegów
+            </summary>
+        </member>
+        <member name="M:Testy.UnitTest1.NumerTelefonu">
+            <summary>
+            Sprawdzenie czy pole numer telefonu nie jest puste
+            </summary>
+        </member>
+        <member name="M:Testy.UnitTest1.CzyNieTakieSame">
+            <summary>
+            Sprawdzenie czy nie wprowadzono dwukrotnie tego samego samochodu
+            </summary>
+        </member>
+    </members>
+</doc>

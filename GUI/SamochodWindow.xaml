@@ -1,0 +1,39 @@
+﻿<Window x:Class="GUI.SamochodWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        Title="Samochod" Height="450" Width="400">
+    <Grid Background="#FFC0E6F0">
+        <Label x:Name="label_szczegoly" Content="Samochód" HorizontalAlignment="Left" Height="37" Margin="150,40,0,0" VerticalAlignment="Top" Width="100" FontFamily="Book Antiqua" FontSize="20"/>
+        <Label x:Name="label_marka" Content="Marka&#x9;&#x9;&#x9;" HorizontalAlignment="Left" Margin="57,100,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" FontSize="12"/>
+        <Label x:Name="label_model" Content="Model" HorizontalAlignment="Left" Margin="57,130,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" FontSize="12"/>
+        <Label x:Name="label_rejestracyjny" Content="Numer rejestracyjny" HorizontalAlignment="Left" Margin="57,160,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" FontSize="12"/>
+        <Label x:Name="label_pojemnosc" Content="Pojemność" HorizontalAlignment="Left" Margin="57,190,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" FontSize="12"/>
+        <Label x:Name="label_vin" Content="VIN" HorizontalAlignment="Left" Margin="57,220,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" FontSize="12"/>
+        <Label x:Name="label_rodzajsilnika" Content="Rodzaj silnika" HorizontalAlignment="Left" Margin="57,250,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" FontSize="12"/>
+        <Label x:Name="label_automat" Content="Automat" HorizontalAlignment="Left" Margin="57,280,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" FontSize="12"/>
+        <Label x:Name="label_cena" Content="Cena" HorizontalAlignment="Left" Margin="57,310,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" FontSize="12"/>
+        <TextBox x:Name="txt_marka" HorizontalAlignment="Left" Margin="193,105,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontFamily="Book Antiqua" FontSize="12"/>
+        <TextBox x:Name="txt_model" HorizontalAlignment="Left" Margin="193,135,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontFamily="Book Antiqua" FontSize="12"/>
+        <TextBox x:Name="txt_rejestracyjny" HorizontalAlignment="Left" Margin="193,165,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontFamily="Book Antiqua" FontSize="12"/>
+        <TextBox x:Name="txt_pojemnosc" HorizontalAlignment="Left" Margin="193,195,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontFamily="Book Antiqua" FontSize="12"/>
+        <TextBox x:Name="txt_vin" HorizontalAlignment="Left" Margin="193,225,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontFamily="Book Antiqua" FontSize="12"/>
+        <TextBox x:Name="txt_automat" HorizontalAlignment="Left" Margin="193,285,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontFamily="Book Antiqua" FontSize="12"/>
+        <TextBox x:Name="txt_cena" HorizontalAlignment="Left" Margin="193,315,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontFamily="Book Antiqua" FontSize="12"/>
+        <ComboBox x:Name="cmb_rodzajsilnika" HorizontalAlignment="Left" Margin="193,255,0,0" VerticalAlignment="Top" Width="140" FontFamily="Book Antiqua" FontSize="12">
+            <ComboBoxItem x:Name="beznyna">benzyna</ComboBoxItem>
+            <ComboBoxItem x:Name="diesel">diesel</ComboBoxItem>
+            <ComboBoxItem x:Name="gaz">gaz</ComboBoxItem>
+            <ComboBoxItem x:Name="hybryda">hybryda</ComboBoxItem>
+            <ComboBoxItem x:Name="hybryda_plug_in">hybryda_plug_in</ComboBoxItem>
+        </ComboBox>
+        <Button x:Name="button_zamknij" Content="Zamknij" HorizontalAlignment="Left" Height="26" Margin="245,361,0,0" VerticalAlignment="Top" Width="65" Click="button_zamknij_Click" Foreground="#FF121314" Background="#FF5BC9F1" FontFamily="Book Antiqua" FontSize="12"/>
+        <Button x:Name="button_zatwierdz" Content="Zatwierdź" HorizontalAlignment="Left" Margin="160,361,0,0" VerticalAlignment="Top" Height="26" Width="65" Click="button_zatwierdz_Click" Foreground="#FF121314" Background="#FF5BC9F1" FontFamily="Book Antiqua" FontSize="12"/>
+        <Label Content="l" HorizontalAlignment="Left" Margin="335,192,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" FontSize="12"/>
+        <Label Content="zł/h" HorizontalAlignment="Left" Margin="335,312,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" FontSize="12"/>
+
+    </Grid>
+</Window>

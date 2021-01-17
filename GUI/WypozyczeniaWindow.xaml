@@ -1,0 +1,16 @@
+﻿<Window x:Class="GUI.WypozyczeniaWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        Title="WypozyczeniaWindow" Height="450" Width="900">
+    <Grid Background="#FFC0E6F0">
+        <ListBox x:Name="listbox_wypozyczenia" HorizontalAlignment="Center" Height="249" Margin="0,69,0,0" VerticalAlignment="Top" Width="826" SelectionChanged="ListBox_SelectionChanged" BorderBrush="#FFBBC1D6" FontFamily="Book Antiqua" FontSize="11"/>
+        <Button x:Name="button_szczegoly" Content="Szczegóły" HorizontalAlignment="Left" Height="38" Margin="514,340,0,0" VerticalAlignment="Top" Width="126" Click="button_szczegoly_Click" Foreground="#FF121314" Background="#FF5BC9F1" FontFamily="Book Antiqua" FontSize="12"/>
+        <Label Content="WYPOŻYCZENIA" HorizontalAlignment="Left" Height="40" Margin="360,24,0,0" VerticalAlignment="Top" Width="181" FontFamily="Book Antiqua" FontSize="20"/>
+        <Button x:Name="button_zamknij" Content="Zamknij" HorizontalAlignment="Left" Height="38" Margin="680,340,0,0" VerticalAlignment="Top" Width="126" Foreground="#FF121314" Background="#FF5BC9F1" FontFamily="Book Antiqua" FontSize="12" Click="button_zamknij_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Projekt_Susz_Kulec_Koterwa</name>
+    </assembly>
+    <members>
+        <member name="T:Projekt_Susz_Kulec_Koterwa.IWypozyczalnia">
+            <summary>
+            Interfejs zawierający wymagane metody dla klasy Wypożyczalnia zawierającej kolekcję
+            Wykonanie Aleksander Kulec
+            </summary>
+        </member>
+        <member name="T:Projekt_Susz_Kulec_Koterwa.Kopiowanie">
+            <summary>
+            Klasa abstrakcyjna implementująca metodę kopiowania
+            Wykonanie Aleksander Kulec
+            </summary>
+        </member>
+        <member name="T:Projekt_Susz_Kulec_Koterwa.Program">
+            <summary>
+            Program główny służący do testowania metod, sprawdzania poprawności programu
+            </summary>
+        </member>
+        <member name="T:Projekt_Susz_Kulec_Koterwa.Samochod">
+            <summary>
+            Atrybuty umożliwiające serializację klasy
+            Wykonanie Aleksander Kulec
+            </summary>
+        </member>
+        <member name="F:Projekt_Susz_Kulec_Koterwa.Samochod.Licznik">
+            <summary>
+            Zadefiniowanie pól klasy, określenie właściwości, dotępu, typu
+            </summary>
+        </member>
+        <member name="T:Projekt_Susz_Kulec_Koterwa.Samochod.Rodzaj_Silnika">
+            <summary>
+            Definicja enumeracji
+            </summary>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Samochod.#ctor">
+            <summary>
+            Konstruktor nieparametryczny
+            </summary>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Samochod.#ctor(System.String,System.String,System.String,System.Double,System.String,Projekt_Susz_Kulec_Koterwa.Samochod.Rodzaj_Silnika,System.Boolean,System.Double)">
+            <summary>
+            Konstruktor parametryczny, w którym zastosowany jest wyjątek oraz ustawianie napisu składającego się z określonych części zmiennych
+            </summary>
+            <param name="marka"></param>
+            <param name="model"></param>
+            <param name="rejestracyjny"></param>
+            <param name="pojemnosc"></param>
+            <param name="VIN"></param>
+            <param name="silnik"></param>
+            <param name="automat"></param>
+            <param name="cena"></param>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Samochod.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Konstruktor parametryczny potrzebny do użycia w innej klasie
+            </summary>
+            <param name="marka"></param>
+            <param name="model"></param>
+            <param name="nr_rejestr"></param>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Samochod.ToString">
+            <summary>
+            Metoda służąca do wypisywania zawartości
+            </summary>
+            <returns>Tekst zawierający dane opisujące samochody</returns>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Samochod.CompareTo(System.Object)">
+            <summary>
+            Metoda służąca do porównywania obiektów klasy
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Projekt_Susz_Kulec_Koterwa.SamochodDostawczy">
+            <summary>
+            Atrybut umożliwiający serializację klasy, mechanizm dziedziczenia
+            Wykonanie Kornelia Susz
+            </summary>
+        </member>
+        <member name="F:Projekt_Susz_Kulec_Koterwa.SamochodDostawczy.Tonaz">
+            <summary>
+            Zadefiniowanie pól klasy, określenie właściwości, dotępu, typu
+            </summary>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.SamochodDostawczy.#ctor">
+            <summary>
+            Konstruktor nieparametryczny dziedziczący po klasie bazowej
+            </summary>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.SamochodDostawczy.#ctor(System.String,System.String,System.String,System.Double,System.String,Projekt_Susz_Kulec_Koterwa.Samochod.Rodzaj_Silnika,System.Boolean,System.Double,System.Double)">
+            <summary>
+            Konstruktor parametryczny dziedziczący po klasie bazowej z zastosowaniem wyjąztku
+            </summary>
+            <param name="marka"></param>
+            <param name="model"></param>
+            <param name="rejestracyjny"></param>
+            <param name="pojemnosc"></param>
+            <param name="VIN"></param>
+            <param name="silnik"></param>
+            <param name="automat"></param>
+            <param name="cena"></param>
+            <param name="tonaz"></param>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.SamochodDostawczy.ToString">
+            <summary>
+            Metoda służąca do wypisywania zawartości dziedziczona po klasie bazowej, rozszerzona o potrzebne dane
+            </summary>
+            <returns>Tekst zawierający dane opisujące samochody dostawcze</returns>
+        </member>
+        <member name="T:Projekt_Susz_Kulec_Koterwa.WrongDateException">
+            <summary>
+            Klasa obsługująca wyjątek dotyczący poprawności podanych dat dziedzicząca po wbudowanej klasie Exception
+            Wykonanie Aleksander Kulec
+            </summary>
+        </member>
+        <member name="T:Projekt_Susz_Kulec_Koterwa.WrongVINException">
+            <summary>
+            Klasa obsługująca wyjątek dotyczący poprawności podanego numeru VIN samochodu dziedzicząca po wbudowanej klasie Exception
+            Wykonanie Jan Koterwa
+            </summary>
+        </member>
+        <member name="T:Projekt_Susz_Kulec_Koterwa.Wypozyczalnia">
+            <summary>
+            Atrybut umożliwiający serializację klasy
+            Wykonanie Kornelia Susz
+            </summary>
+        </member>
+        <member name="F:Projekt_Susz_Kulec_Koterwa.Wypozyczalnia.samochody">
+            <summary>
+            Deklaracja odpowiednich kolekcji
+            </summary>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Wypozyczalnia.#ctor">
+            <summary>
+            Konstruktor inicjalizujący wystąpienia kolekcji
+            </summary>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Wypozyczalnia.DodajSamochod(Projekt_Susz_Kulec_Koterwa.Samochod)">
+            <summary>
+            Metoda służąca do dodania samochodów do kolekcji
+            </summary>
+            <param name="s"></param>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Wypozyczalnia.UsunSamochod(System.String)">
+            <summary>
+            Metoda służąca do usuwania samochodów o podanym numerze VIN z kolekcji
+            </summary>
+            <param name="VIN"></param>
+            <returns>Prawdę, jeśli samochód został usunięty, fałsz, jeśli nie</returns>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Wypozyczalnia.DodajWypozyczenie(System.String)">
+            <summary>
+            Metoda służąca do dodania samochodów do jeden listy i równoczesnego usunięcia z drugiej
+            </summary>
+            <param name="numer"></param>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Wypozyczalnia.KoniecWypozycznia(System.String)">
+            <summary>
+            Metoda służąca do dodania samochodów do jednej listy i równoczesnego usunięcia z drugiej
+            </summary>
+            <param name="numer"></param>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Wypozyczalnia.ZnajdzMarke(System.String)">
+            <summary>
+            Metoda służąca do wyszukiwania samochodu po marce
+            </summary>
+            <param name="marka"></param>
+            <returns>Lista samochodów o podanej marce</returns>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Wypozyczalnia.ZnajdzSamochod(System.String)">
+            <summary>
+            Metoda służąca do wyszukiwania samochodu po numerze wewnętrznym
+            </summary>
+            <param name="numer"></param>
+            <returns>Samochód o podanym numerze wewnętrznym</returns>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Wypozyczalnia.ZapiszXML(System.String,Projekt_Susz_Kulec_Koterwa.Wypozyczalnia)">
+            <summary>
+            Metoda służąca do serializacji klasy do pliku xml
+            </summary>
+            <param name="nazwa"></param>
+            <param name="w"></param>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Wypozyczalnia.OdczytajXML(System.String)">
+            <summary>
+            Metoda służąca do deserializacji klasy z pliku xml
+            </summary>
+            <param name="nazwa"></param>
+            <returns>Odczytane dane z pliku XML</returns>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Wypozyczalnia.Sortuj">
+            <summary>
+            Metoda sortująca samochody alfabetycznie
+            </summary>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Wypozyczalnia.Clone">
+            <summary>
+            Metoda służąca do kopiowania
+            </summary>
+            <returns>Kopia klasy</returns>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Wypozyczalnia.DeepCopy">
+            <summary>
+            Kopia głęboka klasy
+            </summary>
+            <returns>Kopia głęboka klasy</returns>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Wypozyczalnia.ToString">
+            <summary>
+            Metoda służąca do wypisywania zawartości klasy z użyciem StringBuildera
+            </summary>
+            <returns>Tekst zawierający zawartość wypożyczalnii</returns>
+        </member>
+        <member name="T:Projekt_Susz_Kulec_Koterwa.Wypozyczenia">
+            <summary>
+            Atrybut umożliwiający serializację klasy, mechanizm dziedziczenia
+            Wykonanie Jan Koterwa
+            </summary>
+        </member>
+        <member name="F:Projekt_Susz_Kulec_Koterwa.Wypozyczenia.wypozyczenia">
+            <summary>
+            Deklaracja odpowiednich kolekcji
+            </summary>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Wypozyczenia.#ctor">
+            <summary>
+            Konstruktor inicjalizujący wystąpienia kolekcji
+            </summary>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Wypozyczenia.DodajWypozyczenie(Projekt_Susz_Kulec_Koterwa.Wypozyczenie)">
+            <summary>
+            Metoda służąca do dodawania nowego wypożyczenia do kolekcji
+            </summary>
+            <param name="w"></param>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Wypozyczenia.ZapiszBin(System.String)">
+            <summary>
+            Metoda służąca do serializacji klasy do pliku binarnego
+            </summary>
+            <param name="nazwa"></param>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Wypozyczenia.OdczytajBin(System.String)">
+            <summary>
+            Metoda służąca do deserializacji klasy z pliku binarnego
+            </summary>
+            <param name="nazwa"></param>
+            <returns>Odczytane dane z pliku binarnego</returns>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Wypozyczenia.ToString">
+            <summary>
+            Metoda służąca do wypisywania zawartości klasy z użyciem StringBuildera
+            </summary>
+            <returns>Tekst zawierający listę wypożyczeń</returns>
+        </member>
+        <member name="T:Projekt_Susz_Kulec_Koterwa.Wypozyczenie">
+            <summary>
+            Atrybut umożliwiający serializację klasy, mechanizm dziedziczenia
+            Wykonanie Jan Koterwa
+            </summary>
+        </member>
+        <member name="F:Projekt_Susz_Kulec_Koterwa.Wypozyczenie.Data_Wypozyczenia">
+            <summary>
+            Zadefiniowanie pól klasy, określenie właściwości, dotępu, typu
+            </summary>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Wypozyczenie.#ctor">
+            <summary>
+            Konstruktor nieparametryczny
+            </summary>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Wypozyczenie.#ctor(System.String,System.String,System.String,System.Double,System.String,Projekt_Susz_Kulec_Koterwa.Samochod.Rodzaj_Silnika,System.Boolean,System.Double,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Konstruktor parametryczny z wykorzystaniem wyjątku
+            </summary>
+            <param name="marka"></param>
+            <param name="model"></param>
+            <param name="rejestracyjny"></param>
+            <param name="pojemnosc"></param>
+            <param name="VIN"></param>
+            <param name="silnik"></param>
+            <param name="automat"></param>
+            <param name="cena"></param>
+            <param name="data_wypoz"></param>
+            <param name="data_oddania"></param>
+            <param name="nazwisko"></param>
+            <param name="pesel"></param>
+            <param name="numer"></param>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Wypozyczenie.KosztWypozyczenia">
+            <summary>
+            Metoda obliczająca koszt wypożyczenia
+            </summary>
+            <returns>Koszt wypożyczenia</returns>
+        </member>
+        <member name="M:Projekt_Susz_Kulec_Koterwa.Wypozyczenie.ToString">
+            <summary>
+            Metoda służąca do wypisywania zawartości dziedziczona po klasie bazowej, rozszerzona o potrzebne dane
+            </summary>
+            <returns>Tekst zawierający informacje o wypożyczeniach</returns>
+        </member>
+    </members>
+</doc>

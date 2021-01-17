@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GUI</name>
+    </assembly>
+    <members>
+        <member name="T:GUI.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:GUI.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:GUI.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:GUI.DostepneWindow">
+            <summary>
+            Logika interakcji dla klasy DostepneWindow.xaml
+            </summary>
+            <summary>
+            DostepneWindow
+            </summary>
+        </member>
+        <member name="M:GUI.DostepneWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:GUI.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:GUI.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:GUI.SamochodWindow">
+            <summary>
+            Logika interakcji dla klasy SamochodWindow.xaml
+            </summary>
+            <summary>
+            SamochodWindow
+            </summary>
+        </member>
+        <member name="M:GUI.SamochodWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:GUI.SamochodyWindow">
+            <summary>
+            Logika interakcji dla klasy SamochodyWindow.xaml
+            </summary>
+            <summary>
+            SamochodyWindow
+            </summary>
+        </member>
+        <member name="M:GUI.SamochodyWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:GUI.WypozyczeniaWindow">
+            <summary>
+            Logika interakcji dla klasy WypozyczeniaWindow.xaml
+            </summary>
+            <summary>
+            WypozyczeniaWindow
+            </summary>
+        </member>
+        <member name="M:GUI.WypozyczeniaWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:GUI.WypozyczenieWindow">
+            <summary>
+            Logika interakcji dla klasy WypozyczenieWindow.xaml
+            </summary>
+            <summary>
+            WypozyczenieWindow
+            </summary>
+        </member>
+        <member name="M:GUI.WypozyczenieWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:GUI.WypozyczoneWindow">
+            <summary>
+            Logika interakcji dla klasy WypozyczoneWindow.xaml
+            </summary>
+            <summary>
+            WypozyczoneWindow
+            </summary>
+        </member>
+        <member name="M:GUI.WypozyczoneWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>

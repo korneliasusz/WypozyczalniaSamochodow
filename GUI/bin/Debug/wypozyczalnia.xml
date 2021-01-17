@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wypozyczalnia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <samochody>
+    <Samochod>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>1.6</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>VPWVG001</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SB 37281</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>80</Cena>
+      <Marka1>Volkswagen</Marka1>
+      <Model1>Passat</Model1>
+    </Samochod>
+    <Samochod>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>FFWF0002</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SZY 844A2</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>80</Cena>
+      <Marka1>Ford</Marka1>
+      <Model1>Focus</Model1>
+    </Samochod>
+    <Samochod>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>3</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>AAWAU003</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR 9A6FD</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>110</Cena>
+      <Marka1>Audi</Marka1>
+      <Model1>A4</Model1>
+    </Samochod>
+  </samochody>
+  <wypozyczone />
+  <dostepne>
+    <Samochod>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>1.6</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>VPWVG001</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SB 37281</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>80</Cena>
+      <Marka1>Volkswagen</Marka1>
+      <Model1>Passat</Model1>
+    </Samochod>
+    <Samochod>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>FFWF0002</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SZY 844A2</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>80</Cena>
+      <Marka1>Ford</Marka1>
+      <Model1>Focus</Model1>
+    </Samochod>
+    <Samochod>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>3</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>AAWAU003</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR 9A6FD</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>110</Cena>
+      <Marka1>Audi</Marka1>
+      <Model1>A4</Model1>
+    </Samochod>
+  </dostepne>
+</Wypozyczalnia>

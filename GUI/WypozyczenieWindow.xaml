@@ -1,0 +1,28 @@
+﻿<Window x:Class="GUI.WypozyczenieWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        Title="WypozyczenieWindow" Height="450" Width="400">
+    <Grid Background="#FFC0E6F0">
+        <Label Content="Wypożyczenie" HorizontalAlignment="Left" Height="37" Margin="128,40,0,0" VerticalAlignment="Top" Width="144" FontFamily="Book Antiqua" FontSize="20"/>
+        <Label Content="Samochód" HorizontalAlignment="Left" Margin="57,100,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" FontSize="12"/>
+        <Label Content="Data wypożyczenia" HorizontalAlignment="Left" Margin="57,130,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" FontSize="12"/>
+        <Label Content="Data oddania" HorizontalAlignment="Left" Margin="57,160,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" FontSize="12"/>
+        <Label Content="Nazwisko" HorizontalAlignment="Left" Margin="57,190,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" FontSize="12"/>
+        <Label Content="Numer PESEL" HorizontalAlignment="Left" Margin="57,220,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" FontSize="12"/>
+        <Label Content="Numer kontaktowy" HorizontalAlignment="Left" Margin="57,250,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" FontSize="12"/>
+        <Label Content="Koszt" HorizontalAlignment="Left" Margin="57,280,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" FontSize="12"/>
+        <TextBox x:Name="txt_datawyp" HorizontalAlignment="Left" Height="26" Margin="195,130,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="135"/>
+        <TextBox x:Name="txt_dataodd" HorizontalAlignment="Left" Height="26" Margin="194,160,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="135"/>
+        <TextBox x:Name="txt_nazwisko" HorizontalAlignment="Left" Height="26" Margin="194,190,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="135"/>
+        <TextBox x:Name="txt_pesel" HorizontalAlignment="Left" Height="26" Margin="194,220,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="135"/>
+        <TextBox x:Name="txt_numer" HorizontalAlignment="Left" Height="26" Margin="194,250,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="135"/>
+        <TextBox x:Name="txt_koszt" HorizontalAlignment="Left" Height="26" Margin="194,280,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="135"/>
+        <TextBox x:Name="txt_auto" HorizontalAlignment="Left" Height="26" Margin="195,100,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="135"/>
+        <Button x:Name="buttton_zamknij" Content="Zamknij" HorizontalAlignment="Left" Height="26" Margin="262,336,0,0" VerticalAlignment="Top" Width="65" Click="buttton_zamknij_Click" Foreground="#FF121314" Background="#FF5BC9F1" FontFamily="Book Antiqua" FontSize="12"/>
+
+    </Grid>
+</Window>

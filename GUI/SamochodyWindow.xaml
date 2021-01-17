@@ -1,0 +1,19 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        xmlns:Projekt_Susz_Kulec_Koterwa="clr-namespace:Projekt_Susz_Kulec_Koterwa;assembly=Projekt_Susz_Kulec_Koterwa" x:Class="GUI.SamochodyWindow"
+        mc:Ignorable="d"
+        Title="SamochodyWindow" Height="450" Width="900">
+    <Grid Background="#FFC0E6F0">
+        <ListBox x:Name="listbox_samochody" HorizontalAlignment="Center" Height="226" Margin="0,69,0,0" VerticalAlignment="Top" Width="836" BorderBrush="#FFBBC1D6" FontFamily="Book Antiqua" FontSize="11"/>
+        <Button x:Name="button_szczegoly" Content="Szczegóły samochodu" HorizontalAlignment="Left" Height="30" Margin="76,330,0,0" VerticalAlignment="Top" Width="130" Click="button_szczegoly_Click" Foreground="#FF121314" Background="#FF5BC9F1" FontFamily="Book Antiqua" FontSize="12"/>
+        <Button x:Name="button_dodaj" Content="Dodaj nowy samochód" HorizontalAlignment="Left" Height="30" Margin="282,330,0,0" VerticalAlignment="Top" Width="130" Click="button_dodaj_Click" Foreground="#FF121314" Background="#FF5BC9F1" FontFamily="Book Antiqua" FontSize="12"/>
+        <Button x:Name="button_usun" Content="Usuń samochód" HorizontalAlignment="Left" Height="30" Margin="488,330,0,0" VerticalAlignment="Top" Width="130" Click="button_usun_Click" Foreground="#FF121314" Background="#FF5BC9F1" FontFamily="Book Antiqua" FontSize="12"/>
+        <Button x:Name="button_zamknij" Content="Zamknij" HorizontalAlignment="Left" Height="30" Margin="694,330,0,0" VerticalAlignment="Top" Width="130" Click="button_zamknij_Click" Foreground="#FF121314" Background="#FF5BC9F1" FontFamily="Book Antiqua" FontSize="12"/>
+        <Label x:Name="lista_samochodow" Content="SAMOCHODY" HorizontalAlignment="Left" Height="35" Margin="375,15,0,0" VerticalAlignment="Top" Width="150" FontFamily="Book Antiqua" FontSize="20"/>
+    </Grid>
+
+</Window>

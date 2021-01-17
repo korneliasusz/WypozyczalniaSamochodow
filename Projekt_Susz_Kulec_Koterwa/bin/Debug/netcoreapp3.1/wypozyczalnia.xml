@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wypozyczalnia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <samochody>
+    <Samochod>
+      <NR_VIN>WVGZZZ1TZ6W059812</NR_VIN>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>1.6</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>VPWVG001</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SB 37281</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>80</Cena>
+      <Marka1>Volkswagen</Marka1>
+      <Model1>Passat</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>WF0GXXGAJG8S53036</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>FFWF0002</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SZY 844A2</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>80</Cena>
+      <Marka1>Ford</Marka1>
+      <Model1>Focus</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>WAUZZZ8LZYA111887</NR_VIN>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>3</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>AAWAU003</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR 9A6FD</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>110</Cena>
+      <Marka1>Audi</Marka1>
+      <Model1>A4</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>VF1VY0K0NUC369508</NR_VIN>
+      <Silnik>hybryda</Silnik>
+      <Pojemnosc_Silnika>1.4</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>RKVF1004</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SB L8AB2</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>80</Cena>
+      <Marka1>Renault</Marka1>
+      <Model1>Koleos</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>W0LPE9E73G1130965</NR_VIN>
+      <Silnik>hybryda</Silnik>
+      <Pojemnosc_Silnika>1.6</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>OAW0L005</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SZY 876H5</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>70</Cena>
+      <Marka1>Opel</Marka1>
+      <Model1>Astra</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>SJN2EAK12U6021035</NR_VIN>
+      <Silnik>gaz</Silnik>
+      <Pojemnosc_Silnika>1.2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>NMSJN006</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>WR 352F1</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>50</Cena>
+      <Marka1>Nissan</Marka1>
+      <Model1>Micra</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>JTDZN3EU6EJ009258</NR_VIN>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>1.6</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>TAJTD007</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR 7GHB3</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>60</Cena>
+      <Marka1>Toyota</Marka1>
+      <Model1>Auris</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>KMHK3811AKU185593</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>HTKMH008</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SB 83FG3</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>80</Cena>
+      <Marka1>Hyundai</Marka1>
+      <Model1>Tucson</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>ZAR93900007223697</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>2.4</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>AGZAR010</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR 56N9S</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>100</Cena>
+      <Marka1>Alfa Romeo</Marka1>
+      <Model1>Giulia</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>VF1KW0EB544466326</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>1.6</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>RCVF1011</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR 58LP6</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>80</Cena>
+      <Marka1>Renault</Marka1>
+      <Model1>Capture</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>ZFA19900000348501</NR_VIN>
+      <Silnik>hybryda</Silnik>
+      <Pojemnosc_Silnika>1.2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>FPZFA012</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SZY 5746D</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>60</Cena>
+      <Marka1>Fiat</Marka1>
+      <Model1>Punto</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>ZAR94000007125988</NR_VIN>
+      <Silnik>hybryda</Silnik>
+      <Pojemnosc_Silnika>2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>ASZAR013</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SB P6S5D</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>100</Cena>
+      <Marka1>Alfa Romeo</Marka1>
+      <Model1>Stelvio</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>3VWTT7AU3FM061005</NR_VIN>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>1.6</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>VG3VW014</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SB 93BP1</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>70</Cena>
+      <Marka1>Volkswagen</Marka1>
+      <Model1>Golf</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>VF1HJD20262518238</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>1.4</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>RCVF1015</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>WR 23SZ1</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>60</Cena>
+      <Marka1>Renault</Marka1>
+      <Model1>Clio</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>VWASHTF24B2125219</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>NJVWA016</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>WR LI83S</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>80</Cena>
+      <Marka1>Nissan</Marka1>
+      <Model1>Juke</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>5NPD84LF1LH510740</NR_VIN>
+      <Silnik>hybryda</Silnik>
+      <Pojemnosc_Silnika>1.8</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>HK5NP017</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR WI3D1</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>70</Cena>
+      <Marka1>Hyundai</Marka1>
+      <Model1>Kona</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>SJNFBNJ10U1128767</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>1.8</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>NQSJN018</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SZY 482H2</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>90</Cena>
+      <Marka1>Nissan</Marka1>
+      <Model1>Qashqai</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>TMADB51CAAJ103242</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>HTTMA019</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR K4G52</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>90</Cena>
+      <Marka1>Hyundai</Marka1>
+      <Model1>Tucson</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>VNKKL0D350A097704</NR_VIN>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>1.6</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>TAVNK020</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SB 3L25K</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>60</Cena>
+      <Marka1>Toyota</Marka1>
+      <Model1>Auris</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>VF3WC9HXC34140056</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>1.6</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>P3VF3021</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR O36NA</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>80</Cena>
+      <Marka1>Peugeot</Marka1>
+      <Model1>308</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>JMZGHA2B611493065</NR_VIN>
+      <Silnik>hybryda</Silnik>
+      <Pojemnosc_Silnika>1.2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>MCJMZ022</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SZY 95HB3</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>90</Cena>
+      <Marka1>Mazda</Marka1>
+      <Model1>CX3</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>TMBCE21UX32685192</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>SFTMB023</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SB 39D5A</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>70</Cena>
+      <Marka1>Skoda</Marka1>
+      <Model1>Fabia</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>VF3WA5FS09T062882</NR_VIN>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>1.6</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>P5VF3024</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SB LS23X</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>90</Cena>
+      <Marka1>Peugeot</Marka1>
+      <Model1>508</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>TMBCL63U079018283</NR_VIN>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>1.4</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>SCTMB025</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>WR OL4MS</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>80</Cena>
+      <Marka1>Skoda</Marka1>
+      <Model1>Caroq</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>VF7CHNFVK39628905</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>CCVF7026</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>WR WP2GF</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>70</Cena>
+      <Marka1>Citroen</Marka1>
+      <Model1>C4</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>TMBJM25J9C3069603</NR_VIN>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>1.8</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>SSTMB027</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR P2AL2</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>90</Cena>
+      <Marka1>Skoda</Marka1>
+      <Model1>Superb</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>SHSRE6750BU005457</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>1.8</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>HCSHS028</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SZY 82DS0</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>70</Cena>
+      <Marka1>Honda</Marka1>
+      <Model1>Civic</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>VF7RERHRJ76743413</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>CDVF7029</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR HR6UC</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>80</Cena>
+      <Marka1>Citroen</Marka1>
+      <Model1>DS3</Model1>
+    </Samochod>
+    <Samochod xsi:type="SamochodDostawczy">
+      <NR_VIN>VF1JZ1U0247684068</NR_VIN>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>1.6</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>RMVF1031</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SB 83GFQ</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>130</Cena>
+      <Marka1>Renault</Marka1>
+      <Model1>Master</Model1>
+      <Tonaz>3</Tonaz>
+      <oplata_homologacyjna>0</oplata_homologacyjna>
+    </Samochod>
+    <Samochod xsi:type="SamochodDostawczy">
+      <NR_VIN>WDC1641771A140840</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>1.8</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>MSWDC032</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR 316G5</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>150</Cena>
+      <Marka1>Mercedes</Marka1>
+      <Model1>Sprinter</Model1>
+      <Tonaz>3.5</Tonaz>
+      <oplata_homologacyjna>0</oplata_homologacyjna>
+    </Samochod>
+    <Samochod xsi:type="SamochodDostawczy">
+      <NR_VIN>WF0MXXGBWM8Y86210</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>2.2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>FTWF0033</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR 493AJ</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>110</Cena>
+      <Marka1>Ford</Marka1>
+      <Model1>Transit</Model1>
+      <Tonaz>2.5</Tonaz>
+      <oplata_homologacyjna>0</oplata_homologacyjna>
+    </Samochod>
+    <Samochod xsi:type="SamochodDostawczy">
+      <NR_VIN>VF3CCHNZ6GT020295</NR_VIN>
+      <Silnik>gaz</Silnik>
+      <Pojemnosc_Silnika>1.6</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>PBVF3034</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>WR K8F6V</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>120</Cena>
+      <Marka1>Peugeot</Marka1>
+      <Model1>Boxer</Model1>
+      <Tonaz>2.5</Tonaz>
+      <oplata_homologacyjna>0</oplata_homologacyjna>
+    </Samochod>
+    <Samochod xsi:type="SamochodDostawczy">
+      <NR_VIN>ZFA19800004161986</NR_VIN>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>1.8</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>FDZFA035</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>WR 103F8</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>120</Cena>
+      <Marka1>Fiat</Marka1>
+      <Model1>Ducato</Model1>
+      <Tonaz>3</Tonaz>
+      <oplata_homologacyjna>0</oplata_homologacyjna>
+    </Samochod>
+  </samochody>
+  <wypozyczone>
+    <Samochod>
+      <NR_VIN>WF0GXXGAJG8S53036</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>FFWF0002</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SZY 844A2</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>80</Cena>
+      <Marka1>Ford</Marka1>
+      <Model1>Focus</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>ZAR93900007223697</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>2.4</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>AGZAR010</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR 56N9S</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>100</Cena>
+      <Marka1>Alfa Romeo</Marka1>
+      <Model1>Giulia</Model1>
+    </Samochod>
+    <Samochod xsi:type="SamochodDostawczy">
+      <NR_VIN>ZFA19800004161986</NR_VIN>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>1.8</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>FDZFA035</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>WR 103F8</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>120</Cena>
+      <Marka1>Fiat</Marka1>
+      <Model1>Ducato</Model1>
+      <Tonaz>3</Tonaz>
+      <oplata_homologacyjna>0</oplata_homologacyjna>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>VF3WA5FS09T062882</NR_VIN>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>1.6</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>P5VF3024</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SB LS23X</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>90</Cena>
+      <Marka1>Peugeot</Marka1>
+      <Model1>508</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>WVGZZZ1TZ6W059812</NR_VIN>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>1.6</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>VPWVG001</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SB 37281</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>80</Cena>
+      <Marka1>Volkswagen</Marka1>
+      <Model1>Passat</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>VF7RERHRJ76743413</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>CDVF7029</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR HR6UC</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>80</Cena>
+      <Marka1>Citroen</Marka1>
+      <Model1>DS3</Model1>
+    </Samochod>
+  </wypozyczone>
+  <dostepne>
+    <Samochod>
+      <NR_VIN>WAUZZZ8LZYA111887</NR_VIN>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>3</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>AAWAU003</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR 9A6FD</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>110</Cena>
+      <Marka1>Audi</Marka1>
+      <Model1>A4</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>VF1VY0K0NUC369508</NR_VIN>
+      <Silnik>hybryda</Silnik>
+      <Pojemnosc_Silnika>1.4</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>RKVF1004</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SB L8AB2</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>80</Cena>
+      <Marka1>Renault</Marka1>
+      <Model1>Koleos</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>W0LPE9E73G1130965</NR_VIN>
+      <Silnik>hybryda</Silnik>
+      <Pojemnosc_Silnika>1.6</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>OAW0L005</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SZY 876H5</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>70</Cena>
+      <Marka1>Opel</Marka1>
+      <Model1>Astra</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>SJN2EAK12U6021035</NR_VIN>
+      <Silnik>gaz</Silnik>
+      <Pojemnosc_Silnika>1.2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>NMSJN006</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>WR 352F1</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>50</Cena>
+      <Marka1>Nissan</Marka1>
+      <Model1>Micra</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>JTDZN3EU6EJ009258</NR_VIN>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>1.6</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>TAJTD007</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR 7GHB3</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>60</Cena>
+      <Marka1>Toyota</Marka1>
+      <Model1>Auris</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>KMHK3811AKU185593</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>HTKMH008</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SB 83FG3</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>80</Cena>
+      <Marka1>Hyundai</Marka1>
+      <Model1>Tucson</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>VF1HJD20662311853</NR_VIN>
+      <Silnik>hybryda</Silnik>
+      <Pojemnosc_Silnika>1.8</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>RMVF1009</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SB 9PO2A</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>80</Cena>
+      <Marka1>Renault</Marka1>
+      <Model1>Megane</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>VF1KW0EB544466326</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>1.6</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>RCVF1011</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR 58LP6</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>80</Cena>
+      <Marka1>Renault</Marka1>
+      <Model1>Capture</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>ZFA19900000348501</NR_VIN>
+      <Silnik>hybryda</Silnik>
+      <Pojemnosc_Silnika>1.2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>FPZFA012</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SZY 5746D</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>60</Cena>
+      <Marka1>Fiat</Marka1>
+      <Model1>Punto</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>ZAR94000007125988</NR_VIN>
+      <Silnik>hybryda</Silnik>
+      <Pojemnosc_Silnika>2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>ASZAR013</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SB P6S5D</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>100</Cena>
+      <Marka1>Alfa Romeo</Marka1>
+      <Model1>Stelvio</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>3VWTT7AU3FM061005</NR_VIN>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>1.6</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>VG3VW014</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SB 93BP1</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>70</Cena>
+      <Marka1>Volkswagen</Marka1>
+      <Model1>Golf</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>VF1HJD20262518238</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>1.4</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>RCVF1015</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>WR 23SZ1</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>60</Cena>
+      <Marka1>Renault</Marka1>
+      <Model1>Clio</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>VWASHTF24B2125219</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>NJVWA016</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>WR LI83S</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>80</Cena>
+      <Marka1>Nissan</Marka1>
+      <Model1>Juke</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>5NPD84LF1LH510740</NR_VIN>
+      <Silnik>hybryda</Silnik>
+      <Pojemnosc_Silnika>1.8</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>HK5NP017</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR WI3D1</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>70</Cena>
+      <Marka1>Hyundai</Marka1>
+      <Model1>Kona</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>SJNFBNJ10U1128767</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>1.8</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>NQSJN018</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SZY 482H2</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>90</Cena>
+      <Marka1>Nissan</Marka1>
+      <Model1>Qashqai</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>TMADB51CAAJ103242</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>HTTMA019</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR K4G52</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>90</Cena>
+      <Marka1>Hyundai</Marka1>
+      <Model1>Tucson</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>VNKKL0D350A097704</NR_VIN>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>1.6</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>TAVNK020</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SB 3L25K</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>60</Cena>
+      <Marka1>Toyota</Marka1>
+      <Model1>Auris</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>VF3WC9HXC34140056</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>1.6</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>P3VF3021</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR O36NA</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>80</Cena>
+      <Marka1>Peugeot</Marka1>
+      <Model1>308</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>JMZGHA2B611493065</NR_VIN>
+      <Silnik>hybryda</Silnik>
+      <Pojemnosc_Silnika>1.2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>MCJMZ022</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SZY 95HB3</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>90</Cena>
+      <Marka1>Mazda</Marka1>
+      <Model1>CX3</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>TMBCE21UX32685192</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>SFTMB023</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SB 39D5A</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>70</Cena>
+      <Marka1>Skoda</Marka1>
+      <Model1>Fabia</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>TMBCL63U079018283</NR_VIN>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>1.4</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>SCTMB025</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>WR OL4MS</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>80</Cena>
+      <Marka1>Skoda</Marka1>
+      <Model1>Caroq</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>VF7CHNFVK39628905</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>CCVF7026</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>WR WP2GF</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>70</Cena>
+      <Marka1>Citroen</Marka1>
+      <Model1>C4</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>TMBJM25J9C3069603</NR_VIN>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>1.8</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>SSTMB027</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR P2AL2</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>90</Cena>
+      <Marka1>Skoda</Marka1>
+      <Model1>Superb</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>SHSRE6750BU005457</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>1.8</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>HCSHS028</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SZY 82DS0</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>70</Cena>
+      <Marka1>Honda</Marka1>
+      <Model1>Civic</Model1>
+    </Samochod>
+    <Samochod>
+      <NR_VIN>SHHEU77402U033301</NR_VIN>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>1.6</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>HJSHH030</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SB 48HAP</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>80</Cena>
+      <Marka1>Honda</Marka1>
+      <Model1>Jazz</Model1>
+    </Samochod>
+    <Samochod xsi:type="SamochodDostawczy">
+      <NR_VIN>VF1JZ1U0247684068</NR_VIN>
+      <Silnik>benzyna</Silnik>
+      <Pojemnosc_Silnika>1.6</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>RMVF1031</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SB 83GFQ</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>130</Cena>
+      <Marka1>Renault</Marka1>
+      <Model1>Master</Model1>
+      <Tonaz>3</Tonaz>
+      <oplata_homologacyjna>0</oplata_homologacyjna>
+    </Samochod>
+    <Samochod xsi:type="SamochodDostawczy">
+      <NR_VIN>WDC1641771A140840</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>1.8</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>MSWDC032</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR 316G5</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>150</Cena>
+      <Marka1>Mercedes</Marka1>
+      <Model1>Sprinter</Model1>
+      <Tonaz>3.5</Tonaz>
+      <oplata_homologacyjna>0</oplata_homologacyjna>
+    </Samochod>
+    <Samochod xsi:type="SamochodDostawczy">
+      <NR_VIN>WF0MXXGBWM8Y86210</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>2.2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>FTWF0033</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR 493AJ</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>110</Cena>
+      <Marka1>Ford</Marka1>
+      <Model1>Transit</Model1>
+      <Tonaz>2.5</Tonaz>
+      <oplata_homologacyjna>0</oplata_homologacyjna>
+    </Samochod>
+    <Samochod xsi:type="SamochodDostawczy">
+      <NR_VIN>VF3CCHNZ6GT020295</NR_VIN>
+      <Silnik>gaz</Silnik>
+      <Pojemnosc_Silnika>1.6</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>PBVF3034</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>WR K8F6V</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>120</Cena>
+      <Marka1>Peugeot</Marka1>
+      <Model1>Boxer</Model1>
+      <Tonaz>2.5</Tonaz>
+      <oplata_homologacyjna>0</oplata_homologacyjna>
+    </Samochod>
+  </dostepne>
+</Wypozyczalnia>

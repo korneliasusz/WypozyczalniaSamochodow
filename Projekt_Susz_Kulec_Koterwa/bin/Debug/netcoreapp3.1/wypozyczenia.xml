@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wypozyczenia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Silnik>benzyna</Silnik>
+  <Pojemnosc_Silnika>0</Pojemnosc_Silnika>
+  <Automat>false</Automat>
+  <Cena>0</Cena>
+  <Data_Wypozyczenia>0001-01-01T00:00:00</Data_Wypozyczenia>
+  <Data_Oddania>0001-01-01T00:00:00</Data_Oddania>
+  <Koszt>0</Koszt>
+  <wypozyczenia>
+    <Samochod xsi:type="Wypozyczenie">
+      <NR_VIN>ZAR93900007223697</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>2.4</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>AGZAR037</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>KR 56N9S</Nr_rejestracyjny>
+      <Automat>true</Automat>
+      <Cena>100</Cena>
+      <Marka1>Alfa Romeo</Marka1>
+      <Model1>Giulia</Model1>
+      <Data_Wypozyczenia>2020-12-30T00:00:00</Data_Wypozyczenia>
+      <Data_Oddania>2020-12-31T00:00:00</Data_Oddania>
+      <Nazwisko>Nowak</Nazwisko>
+      <PESEL>93128362192</PESEL>
+      <Numer_kontaktowy>693-823-968</Numer_kontaktowy>
+      <Koszt>108</Koszt>
+    </Samochod>
+    <Samochod xsi:type="Wypozyczenie">
+      <NR_VIN>WF0GXXGAJG8S53036</NR_VIN>
+      <Silnik>diesel</Silnik>
+      <Pojemnosc_Silnika>2</Pojemnosc_Silnika>
+      <Wewnetrzny_nr_ID>FFWF0036</Wewnetrzny_nr_ID>
+      <Nr_rejestracyjny>SZY 844A2</Nr_rejestracyjny>
+      <Automat>false</Automat>
+      <Cena>80</Cena>
+      <Marka1>Ford</Marka1>
+      <Model1>Focus</Model1>
+      <Data_Wypozyczenia>2020-12-30T00:00:00</Data_Wypozyczenia>
+      <Data_Oddania>2020-12-31T00:00:00</Data_Oddania>
+      <Nazwisko>Kowalski</Nazwisko>
+      <PESEL>98765432103</PESEL>
+      <Numer_kontaktowy>506-425-712</Numer_kontaktowy>
+      <Koszt>88</Koszt>
+    </Samochod>
+  </wypozyczenia>
+</Wypozyczenia>
