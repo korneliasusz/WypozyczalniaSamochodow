@@ -56,6 +56,11 @@
             SamochodWindow
             </summary>
         </member>
+        <member name="M:GUI.SamochodWindow.#ctor">
+            <summary>
+            konstruktor inicjalizujący
+            </summary>
+        </member>
         <member name="M:GUI.SamochodWindow.InitializeComponent">
             <summary>
             InitializeComponent
@@ -67,6 +72,11 @@
             </summary>
             <summary>
             SamochodyWindow
+            </summary>
+        </member>
+        <member name="M:GUI.SamochodyWindow.#ctor">
+            <summary>
+            konstruktor inicjalizujący okno i odczytujący dane z pliku XML
             </summary>
         </member>
         <member name="M:GUI.SamochodyWindow.InitializeComponent">

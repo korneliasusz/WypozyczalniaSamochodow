@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -11,7 +12,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Projekt_Susz_Kulec_Koterwa;
-
 
 namespace GUI
 {
@@ -67,6 +67,78 @@ namespace GUI
         private void button_zamknij_Click(object sender, RoutedEventArgs e)
         {
             DialogResult = false;
+        }
+
+        private void button_filtruj_Click(object sender, RoutedEventArgs e)
+        {
+            if (cmbbox_marka.Text == "Toyota")
+            {
+                listbox_samochody.ItemsSource = lista.Where(x => x.Marka1.Equals("Toyota"));
+            }
+            else if(cmbbox_marka.Text == "Ford")
+            {
+                listbox_samochody.ItemsSource = lista.Where(x => x.Marka1.Equals("Ford"));
+            }
+            else if (cmbbox_marka.Text == "Volkswagen")
+            {
+                listbox_samochody.ItemsSource = lista.Where(x => x.Marka1.Equals("Volkswagen"));
+            }
+            else if (cmbbox_marka.Text == "Audi")
+            {
+                listbox_samochody.ItemsSource = lista.Where(x => x.Marka1.Equals("Audi"));
+            }
+            else if (cmbbox_marka.Text == "Renault")
+            {
+                listbox_samochody.ItemsSource = lista.Where(x => x.Marka1.Equals("Renault"));
+            }
+            else if (cmbbox_marka.Text == "Opel")
+            {
+                listbox_samochody.ItemsSource = lista.Where(x => x.Marka1.Equals("Opel"));
+            }
+            else if (cmbbox_marka.Text == "Nissan")
+            {
+                listbox_samochody.ItemsSource = lista.Where(x => x.Marka1.Equals("Nissan"));
+            }
+            else if (cmbbox_marka.Text == "Fiat")
+            {
+                listbox_samochody.ItemsSource = lista.Where(x => x.Marka1.Equals("Fiat"));
+            }
+            else if (cmbbox_marka.Text == "Hyundai")
+            {
+                listbox_samochody.ItemsSource = lista.Where(x => x.Marka1.Equals("Hyundai"));
+            }
+            else if (cmbbox_marka.Text == "Skoda")
+            {
+                listbox_samochody.ItemsSource = lista.Where(x => x.Marka1.Equals("Skoda"));
+            }
+            else if (cmbbox_marka.Text == "Alfa Romeo")
+            {
+                listbox_samochody.ItemsSource = lista.Where(x => x.Marka1.Equals("Alfa Romeo"));
+            }
+            else if (cmbbox_marka.Text == "Citroen")
+            {
+                listbox_samochody.ItemsSource = lista.Where(x => x.Marka1.Equals("Citroen"));
+            }
+            else if (cmbbox_marka.Text == "Mercedes")
+            {
+                listbox_samochody.ItemsSource = lista.Where(x => x.Marka1.Equals("Mercedes"));
+            }
+            else if (cmbbox_marka.Text == "Honda")
+            {
+                listbox_samochody.ItemsSource = lista.Where(x => x.Marka1.Equals("Honda"));
+            }
+            else if (cmbbox_marka.Text == "Mazda")
+            {
+                listbox_samochody.ItemsSource = lista.Where(x => x.Marka1.Equals("Mazda"));
+            }
+            else if (cmbbox_marka.Text == "Wszystkie")
+            {
+                listbox_samochody.ItemsSource = lista;
+            }
+            else if (cmbbox_marka.Text == "Peugeot")
+            {
+                listbox_samochody.ItemsSource = lista.Where(x => x.Marka1.Equals("Peugeot"));
+            }
         }
     }
 }

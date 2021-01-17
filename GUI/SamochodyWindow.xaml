@@ -14,6 +14,26 @@
         <Button x:Name="button_usun" Content="Usuń samochód" HorizontalAlignment="Left" Height="30" Margin="488,330,0,0" VerticalAlignment="Top" Width="130" Click="button_usun_Click" Foreground="#FF121314" Background="#FF5BC9F1" FontFamily="Book Antiqua" FontSize="12"/>
         <Button x:Name="button_zamknij" Content="Zamknij" HorizontalAlignment="Left" Height="30" Margin="694,330,0,0" VerticalAlignment="Top" Width="130" Click="button_zamknij_Click" Foreground="#FF121314" Background="#FF5BC9F1" FontFamily="Book Antiqua" FontSize="12"/>
         <Label x:Name="lista_samochodow" Content="SAMOCHODY" HorizontalAlignment="Left" Height="35" Margin="375,15,0,0" VerticalAlignment="Top" Width="150" FontFamily="Book Antiqua" FontSize="20"/>
+        <ComboBox x:Name="cmbbox_marka" HorizontalAlignment="Left" Height="30" Margin="60,15,0,0" VerticalAlignment="Top" Width="146" FontFamily="Book Antiqua">
+            <ComboBoxItem x:Name="Wszystkie">Wszystkie</ComboBoxItem>
+            <ComboBoxItem x:Name="Toyota">Toyota</ComboBoxItem>
+            <ComboBoxItem x:Name="Ford">Ford</ComboBoxItem>
+            <ComboBoxItem x:Name="Volkswagen">Volkswagen</ComboBoxItem>
+            <ComboBoxItem x:Name="Renault">Renault</ComboBoxItem>
+            <ComboBoxItem x:Name="Opel">Opel</ComboBoxItem>
+            <ComboBoxItem x:Name="Nissan">Nissan</ComboBoxItem>
+            <ComboBoxItem x:Name="Fiat">Fiat</ComboBoxItem>
+            <ComboBoxItem x:Name="Audi">Audi</ComboBoxItem>
+            <ComboBoxItem x:Name="Hyunadi">Hyundai</ComboBoxItem>
+            <ComboBoxItem x:Name="AlfaRomeo">Alfa Romeo</ComboBoxItem>
+            <ComboBoxItem x:Name="Skoda">Skoda</ComboBoxItem>
+            <ComboBoxItem x:Name="Citroen">Citroen</ComboBoxItem>
+            <ComboBoxItem x:Name="Mercedes">Mercedes</ComboBoxItem>
+            <ComboBoxItem x:Name="Honda">Honda</ComboBoxItem>
+            <ComboBoxItem x:Name="Mazda">Mazda</ComboBoxItem>
+            <ComboBoxItem x:Name="Peugeot">Peugeot</ComboBoxItem>
+        </ComboBox>
+        <Button x:Name="button_filtruj" Content="Filtruj" HorizontalAlignment="Left" Height="30" Margin="217,15,0,0" VerticalAlignment="Top" Width="130" Foreground="#FF121314" Background="#FF5BC9F1" FontFamily="Book Antiqua" FontSize="12" Click="button_filtruj_Click"/>
     </Grid>
 
 </Window>

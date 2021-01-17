@@ -21,6 +21,9 @@ namespace GUI
     {
         Samochod samochod;
         
+        /// <summary>
+        /// konstruktor inicjalizujący
+        /// </summary>
         public SamochodWindow()
         {
             InitializeComponent();
